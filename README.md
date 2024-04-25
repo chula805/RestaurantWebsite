@@ -29,7 +29,8 @@ Welcome to our Restaurant Website! This responsive website is your gateway to ex
 - **style.css**: Primary stylesheet for styling.
 - **script.js**: JavaScript file for handling dynamic content and form submissions.
 
-![_G__My%20Job_MyOwnSites_HTML%20CSS%20SITES_Resturant%20Website_index html](https://github.com/chula805/RestaurantWebsite/assets/121760253/dcc5b1cc-9e24-4c86-ac97-8f28ec52e790)
-![_G__My%20Job_MyOwnSites_HTML%20CSS%20SITES_Resturant%20Website_about html](https://github.com/chula805/RestaurantWebsite/assets/121760253/bed4eb15-f6be-4f8f-8088-df4788d3059f)
-![_G__My%20Job_MyOwnSites_HTML%20CSS%20SITES_Resturant%20Website_menu html](https://github.com/chula805/RestaurantWebsite/assets/121760253/77d0b6ca-d704-495e-99be-d5f4f0a49feb)
+![_G__My%20Job_MyOwnSites_HTML%20CSS%20SITES_Resturant%20Website_index html](https://github.com/chula805/RestaurantWebsite/assets/121760253/f6b8e90e-d052-4c32-b4eb-8cace493e315)
+![_G__My%20Job_MyOwnSites_HTML%20CSS%20SITES_Resturant%20Website_about html](https://github.com/chula805/RestaurantWebsite/assets/121760253/ef9ee46e-e76e-4c11-a0b2-a419daeac835)
+![_G__My%20Job_MyOwnSites_HTML%20CSS%20SITES_Resturant%20Website_menu html](https://github.com/chula805/RestaurantWebsite/assets/121760253/429497a7-775b-4e5e-902f-564bfdcfbabf)
+
 
