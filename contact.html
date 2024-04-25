@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Foody Buddy Restaurant</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <a href="#">Foody<span>Buddy</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu & Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact Us & Testimonials</a></li>
+      </ul>
+      <div class="nav__btn">
+        <a href="tel:+0772452884"><button class="btn"><i class="ri-phone-fill"></i></button></a>
+      </div>
+    </nav>
+
+    <section class="contact">
+        <div class="contact__container">
+          <h2 class="section__header">Contact For Any Query</h2>
+          <div class="contact__info">
+            <div class="contact__item">
+                <i class="ri-phone-fill"></i>
+              <span>+94 77 24 52 884</span>
+            </div>
+            <div class="contact__item">
+                <i class="ri-mail-fill"></i>
+              <span>foody@gmail.com</span>
+            </div>
+            <div class="contact__item">
+                <i class="ri-map-pin-fill"></i>
+              <span>No:21 Galle Rd, Colombo</span>
+            </div>
+          </div>
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="map-container">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8121350346105!2d79.84660977379104!3d6.913052293086457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25940c3df17ed%3A0xebd5959350706f6f!2sGalle%20Rd%2C%20Colombo!5e0!3m2!1sen!2slk!4v1710953448730!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+                <div class="col form">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
+                        <label for="text">Full Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="age" placeholder="Age" required>
+                        <label for="number">Age</label>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="radio" name="gender" id="male" value="Male" required>
+                      <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="radio" name="gender" id="female" value="Female" required>
+                      <label class="form-check-label" for="female">Female</label>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="radio" name="gender" id="other" value="Other" required>
+                      <label class="form-check-label" for="other">Other</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="birthdate" placeholder="Birthdate" required>
+                        <label for="birthdate"></label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="contact" placeholder="Contact">
+                        <label for="contact">Contact No:</label>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="emailCheck" value="Email">
+                      <label class="form-check-label" for="emailCheck">Email</label>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="callCheck" value="Call">
+                      <label class="form-check-label" for="callCheck">Call</label>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="textCheck" value="Text">
+                      <label class="form-check-label" for="textCheck">Text</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Feedback/Message</label>
+                    </div>
+                    <button type="button" class="btn btn-primary">SUBMIT</button>
+                    <button type="button" class="btn btn-secondary">RESET</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__container client__container" id="client">
+        <h2 class="section__header">What Our Customers Are Saying</h2>
+        <p class="section__description">
+            Discover the genuine stories and testimonials from our valued customers, showcasing our 
+            dedication to quality, exceptional service, and customer satisfaction. Explore firsthand 
+            experiences that highlight our commitment to creating memorable dining moments at Foody Buddy.
+        </p>
+        <div class="client__swiper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <p>
+                    FoodyBuddy never fails to amaze me with their delicious and innovative dishes! Each 
+                    bite is a burst of flavor that keeps me coming back for more.
+                  </p>
+                  <img src="assets/client-1.jpg" alt="client" />
+                  <h4>David Lee</h4>
+                  <h5>Business Executive</h5>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <p>
+                    I love how FoodyBuddy combines quality ingredients with creative recipes. 
+                    It's like a culinary adventure every time I order from them!
+                  </p>
+                  <img src="assets/client-2.jpg" alt="client" />
+                  <h4>Emily Johnson</h4>
+                  <h5>Food Blogger</h5>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <p>
+                    FoodyBuddy's customer service is top-notch! 
+                    They always go above and beyond to ensure a delightful dining experience.
+                  </p>
+                  <img src="assets/client-3.jpg" alt="client" />
+                  <h4>Michael Thompson</h4>
+                  <h5>Event Planner</h5>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </section>
+    
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#">Foody<span>Buddy</span></a>
+          </div>
+          <p class="section__description">
+            Embark on a culinary odyssey with FoodyBuddy, where every flavor is a chapter and every dish is a masterpiece of perfection.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="menu.html">Specials</a></li>
+            <li><a href="menu.html">Meal Deals</a></li>
+            <li><a href="menu.html">Catering Options</a></li>
+            <li><a href="menu.html">Seasonal Offerings</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Information</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimonial.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">+94 77 24 52 884</a></li>
+            <li><a href="#">foody@gmail.com</a></li>
+            <li><a href="#">No:21 Galle Rd, Colombo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024. All rights reserved.
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="ri-arrow-up-line"></i></button>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
