@@ -1,5 +1,4 @@
 # RestaurantWebsite
-Absolutely! Below is a detailed README description for your Restaurant Website project, complete with emojis:
 
 # 🍽️ Restaurant Website
 
